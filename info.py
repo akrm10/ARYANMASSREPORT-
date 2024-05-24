@@ -5,7 +5,7 @@ class Config(object):
     # Pyrogram Client
     API_ID    = int(os.environ.get("API_ID", "22981583"))  # ⚠️ Required
     API_HASH  = os.environ.get("API_HASH", "c02ca0834d5d92ffb31fea2b50060195") # ⚠️ Required
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6551526934:AAFPLbuyLIYBuQVTUhuzOJZXKZoNx6FtWIM") # ⚠️ Required
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "none") # ⚠️ Required
     
     # Other Configs
     BOT_START_TIME = time.time()
@@ -30,11 +30,7 @@ class Txt(object):
 """
 
     SEND_SESSION_MSG = """
-❪ SEND SESSOIN STRING ❫
-
-☛ Generate Session String form @stringfathersmbot
-
-
+❪ SEND SESSION STRINGS ❫
 """
 
     SEND_API_ID = """
