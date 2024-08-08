@@ -5,7 +5,7 @@ class Config(object):
     # Pyrogram Client
     API_ID    = int(os.environ.get("API_ID", "21209802"))  # ⚠️ Required
     API_HASH  = os.environ.get("API_HASH", "eed1c8387c6ee80009527e07d9d58cc0") # ⚠️ Required
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7401315532:AAG20BFF8XTxWDIAF84JXx9f4MZXvkEPFeE") # ⚠️ Required
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6737627560:AAFhAIAmk870kBurK1X0lAtObH1HgBPOCfI") # ⚠️ Required
     
     # Other Configs
     BOT_START_TIME = time.time()
